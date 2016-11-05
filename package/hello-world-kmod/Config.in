@@ -1,0 +1,5 @@
+config BR2_PACKAGE_HELLO-WORLD-KMOD
+	bool "hello-world-kmod"
+	depends on BR2_LINUX_KERNEL
+	help
+	  This is a kernel modul
